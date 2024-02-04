@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peace</title>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+
+</head>
+<body>
+  <a-scene inspector="" keyboard-shortcuts="" screenshot="" xr-mode-ui="" device-orientation-permission-ui="">
+    <a-assets>
+      <img id="sky" src="assets/milky.jpg">
+      <img id="front" src="assets/milky.jpg">
+      <img id="ground" src="assets/grassimage.PNG">
+    </a-assets>
+
+    <a-camera position="0 1.6 33" rotation="0 0 0">
+  </a-camera>
+
+    <a-sky src="#sky" position="0 200 0" material="" geometry=""></a-sky>    
+
+    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" repeat="30 30 " material="" geometry=""></a-plane>
+
+    <a-box position="-0.352 2.1653 -13.55404" rotation="" color="#4CC3D9" material="" geometry="" scale="7 4 0.1"></a-box>
+    <a-box position="-2.53073 2.192 -6.46141" rotation="" color="#4CC3D9" material="" geometry="" scale="2.5 4 0.1"></a-box>
+    <a-box position="1.9653 2.13893 -6.55848" rotation="" color="#4CC3D9" material="" geometry="" scale="2.5 4 0.1"></a-box>
+    <a-box position="-3.77169 2.17956 -9.95057" rotation="0 90 0" color="#4CC3D9" material="" geometry="" scale="7 4 0.1"></a-box>
+    <a-box position="3.1866 2.14038 -9.982" rotation="0 90 0" color="#4CC3D9" material="" geometry="" scale="7 4 0.1"></a-box>
+
+    <!-- roof -->
+    <a-box position="-0.32937 4.16961 -9.982" rotation="90 0 0" color="#4CC3D9" material="" geometry="" scale="8 10 0.1"></a-box>
+
+
+<div class="a-loader-title" style="display: none;">Peace</div><div class="a-loader-title" style="display: none;">Peace</div></a-scene>
+
+  
+</body>
+</html>
