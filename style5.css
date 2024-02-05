@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Arial",sans-serif;
+
+}
+.hero{
+	background-color: #f8f8f8;
+	overflow: hidden;
+
+}
+
+.heading h1{
+	color: #359381;
+	font-size: 55px;
+	text-align: center;
+	margin-top: 35px;
+}
+.container{
+	margin-top: 75px;
+	margin-left: 480px;
+	padding:46px;
+	text-decoration: none;
+	color: #359381;
+	padding: 6px 15px;
+	border-radius: 20px;
+	margin: 5 25px;
+	font-weight: 750;
+	justify-content: space-between;
+
+}
+.container a:hover{
+	background: #359381;
+	color: #fff;
+}
+.image{
+	margin-top: 20px;
+	margin-left: 850px;
+	height: 100%;
+	width: 80%;
+}
+.about{
+	margin-left: 300px;
+	
+}

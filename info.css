@@ -1,0 +1,28 @@
+.info{
+	background-color: #359381;
+	color: #fff;
+	font-size: 55px;
+	font-family: sans-serif;
+	padding: 10px;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+.wapper{
+	margin: margin: 150px auto;
+	width: 74%;
+}
+img{
+	max-height: 350pxS;
+}
