@@ -19,10 +19,12 @@ body{
 	min-height: 100vh;
 
 }
-.wapper{
-	margin: margin: 150px auto;
+.wrapper{
+	float: left;
+    margin: 60px auto;
 	width: 74%;
 }
 img{
-	max-height: 350pxS;
+	max-height: 500px;
+	
 }

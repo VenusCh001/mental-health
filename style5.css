@@ -35,12 +35,14 @@
 	color: #fff;
 }
 .image{
-	margin-top: 20px;
-	margin-left: 850px;
+	margin-top: 5px;
+	margin-left: 900px;
 	height: 100%;
 	width: 80%;
+	
 }
 .about{
+	margin-top: 20px;
 	margin-left: 300px;
 	
 }
