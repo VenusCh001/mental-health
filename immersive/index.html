@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peace</title>
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="js/components/aframe-tooltip-component.js"></script>
+    <script src="js/components/camera-position.js"></script>
+    <script src="js/components/link-controls.js"></script>
+  
 
 </head>
 <body>
-  <a-scene inspector="" keyboard-shortcuts="" screenshot="" xr-mode-ui="" device-orientation-permission-ui="">
+  <a-scene raycaster="far: 100; objects: [link];"
+  cursor="rayOrigin: mouse"
+  camera-position
+  environment
+  info-message="htmlSrc: #messageText">
     <a-assets>
       <img id="sky" src="assets/milky.jpg">
       <img id="front" src="assets/milky.jpg">
@@ -60,11 +68,11 @@
  
 
 <!--magic portals-->
-<a-link   title="smell the pages " rotation="0 90 0" position="-3 1.93886 -12.45811" image="#portal1" scale="0.5 0.5 0.5"></a-link>
+<a-link   href="https://www.aajtak.in/" higlighted="true" title="smell the pages " rotation="0 90 0" position="-3 1.93886 -12.45811" image="#portal1" scale="0.5 0.5 0.5" ></a-link>
 
 <a-link  title="choco bliss" rotation="0 90 0" position="-3 1.93886 -10.5.45811" image="#portal2" scale="0.5 0.5 0.5"></a-link>
 
-<a-link  rotation="0 90 0" position="-3 1.93886 -8.5.45811" image="#portal3" scale="0.5 0.5 0.5"></a-link>
+<a-link  title="fragrant flowers"rotation="0 90 0" position="-3 1.93886 -8.5.45811" image="#portal3" scale="0.5 0.5 0.5"></a-link>
 
 <!--api quotes-->
     <!-- Plane for displaying the quote -->
