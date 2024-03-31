@@ -1,50 +1,42 @@
-*{
-	margin: 0px;
-	padding: 0px;
+* {
 	box-sizing: border-box;
-	font-family: "Arial",sans-serif;
-
-}
-.hero{
-	background-color: #f8f8f8;
-	overflow: hidden;
-
-}
-
-.heading h1{
-	color: #359381;
-	font-size: 55px;
-	text-align: center;
-	margin-top: 35px;
-}
-.container{
-	margin-top: 75px;
-	margin-left: 480px;
-	padding:46px;
-	text-decoration: none;
-	color: #359381;
-	padding: 6px 15px;
-	border-radius: 20px;
-	margin: 5 25px;
-	font-weight: 750;
-	font-size: 30px;
-	justify-content: space-between;
-	border-radius: 25px;
-
-}
-.container a:hover{
-	background: #359381;
-	color: #fff;
-}
-.image{
-	margin-top: 5px;
-	margin-left: 400px;
-	height: 100%;
-	width: 80%;
-	
-}
-.about{
-	margin-top: 20px;
-	margin-left: 300px;
-	
-}
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+  
+  }
+  body {
+	background: repeating-conic-gradient(27,27,27);
+  }
+  .container{
+	display: flex;
+	justify-content: center;
+  }
+  .card {
+	background: lightcyan;
+	width: 320px;
+	height: 570px;
+	margin: 20px;
+	border-radius: 15px;
+  }
+  .card-image{
+	background-color: aqua;
+	height: 150px;
+	margin-bottom: 15px;
+	background-size: cover;
+  }
+  
+  .car-1 {
+	background-image: url('http://dattmedi.com/blog/wp-content/uploads/2020/05/Anxiety-Disorders.jpeg');
+  }
+  
+  .car-2{
+	background-image: url('https://tse1.mm.bing.net/th?id=OIP.TX7T3eNbpIxFV4SWfWnS6gHaEy&pid=Api&P=0&h=180');
+  }
+  .car-3{
+	background-image: url('https://tse4.mm.bing.net/th?id=OIP.Votgs-QeOGJvEcJD0VYs9wHaDt&pid=Api&P=0&h=180');
+  }
+  .car-4{
+	background-image: url('https://tse3.mm.bing.net/th?id=OIF.IHgmpvJK8JVMShuvbKpqPQ&pid=Api&P=0&h=180');
+  }
+  
